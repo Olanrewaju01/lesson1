@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amazing_video</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="showcase">
+    <!-- <section class="showcase active"> -->
+        <header>
+            <h2 class="logo"> <img src="coke.png" ></h2>
+            <div class="toggle"></div>
+            <!-- <div class="toggle active"></div> -->
+        </header>
+        <video src="tao.mp4" autoplay muted loop></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2> Who is ISMAIL ABDULROHEEM?</h2>
+            <h3>There are so many things you would like to know about me!!!!!</h3>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis soluta pariatur at exercitationem velit odit, corrupti dolores animi sint modi. Quidem, ex ipsum maxime totam amet aliquam mollitia et exercitationem?</p> -->
+                <p>You need not worry yourself or stress yourself on knowing me</p>
+                <p>You can go through my social media handles and know more about me.</p>
+                    <a href="#"> Explore</a>
+                </div>
+                    <ul class="social">
+                        <li><a href="https://www.facebook.com/abdulroheem.ismail.5"><img src="facebook.png" alt=""></a></li>
+                        <li><a href="https://www.twitter.com/@olanrewaju10"> <img src="twitter.png" alt=""></a></li>
+                        <li><a href="https://www.instagram.com/olanrewaju_of_ib"><img src="instagram.png" alt=""></a></li>
+                    </ul>
+           
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href=""></a>Home</li>
+            <li><a href=""></a>news</li>
+            <li><a href=""></a>destination</li>
+            <li><a href=""></a>blog</li>
+            <li><a href=""></a>contact</li>
+        </ul>
+    </div>
+   <script>
+        const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        });
+   </script> 
+</body>
+</html>
